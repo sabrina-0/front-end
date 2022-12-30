@@ -1,0 +1,58 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+:root {
+    --color: #8cc59b9f;
+    --coolor: #2b2001;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #bccbbc;
+    color: var(--coolor);
+}
+
+.container {
+    padding: 60px 0;
+}
+
+header {
+    height: 100px;
+    align-items: center;
+}
+
+.banner .container {
+    height: 400px;
+    background-color: var(--color);
+}
+
+#icono img{
+    width: 50%;
+    margin-top: -95px;
+    padding-bottom: .5em;
+}
+
+.educacion .container h1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    margin-bottom: 60px;
+}
+
+.skills .container h2 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    margin-bottom: 60px;
+}
+
+.proyectos .container h1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    margin-bottom: 60px;
+}
